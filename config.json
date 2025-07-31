@@ -1,0 +1,43 @@
+{
+  "open_source_models": {
+    "GLM4": {
+      "name": "GLM4",
+      "path": "models/GLM4"
+    },
+    "Qwen": {
+      "name": "Qwen",
+      "path": "models/Qwen"
+    },
+    "gemma": {
+      "name": "gemma",
+      "path": "models/gemma"
+    }
+  },
+  "closed_source_models": {
+    "GPT": {
+      "name": "gpt-4o",
+      "api_key": "your_openai_api_key",
+      "base_url": "https://api.openai.com/v1"
+    },
+    "Gemini": {
+      "name": "gemini-2.5-pro",
+      "api_key": "your_google_api_key",
+      "base_url": "https://generativelanguage.googleapis.com"
+    },
+    "DeepSeek": {
+      "name": "deepseek-reasoner",
+      "api_key": "your_deepseek_api_key",
+      "base_url": "https://api.deepseek.com"
+    }
+  },
+  "datasets": {
+    "AdvBench": {
+      "name": "AdvBench_50",
+      "path": "datasets/advbench_nhj_50.json"
+    },
+    "HarmBench": {
+      "name": "harmbench",
+      "path": "datasets/harmbench_nja.json"
+    }
+  }
+}
